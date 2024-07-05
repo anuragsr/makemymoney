@@ -1,0 +1,221 @@
+.app-promotion-image {
+    background-image: url(/images/sprite/app-promotion-mobile-dropshadow.png)
+}
+
+.sprite-hp {
+    background-image: url(/images/sprite/sprite-hp.png)
+}
+
+.sprite-get-quote {
+    background-image: url(/images/sprite/sprite-landingpage.png)
+}
+
+.testimonials li .oc_bg {
+    background-image: url(/images/sprite/oc_bg.png)
+}
+
+.qbottom {
+    background-image: url(/images/sprite/quote-bottom.png)
+}
+
+.qtop {
+    background-image: url(/images/sprite/quote-top.png)
+}
+
+.bank-prod-page .pointer-view-blue,.bank-prod-page .pointer-view-orange,.bank-prod-page .pointer-view-meroon,.bank-prod-page .pointer-view-green,.smart-buy .pointer-view-blue,.smart-buy .pointer-view-orange,.smart-buy .pointer-view-meroon,.smart-buy .pointer-view-green {
+    background-image: url(/images/sprite/sprite-icon-pointer.png)
+}
+
+.sprite-hungry {
+    background-image: url(/images/sprite/sprite-hungry.png)
+}
+
+.bb-review-old .review-rating-filter button,.bb-review-old .review-city-filter button,.bb-review-old .review-bank-filter button,.bb-review-old .review-product-filter button {
+    background-image: url(/images/sprite/cl-filter-icon.png)
+}
+
+.sprite-insurance-info {
+    background-image: url(/images/landing/sprite-info-v12.png)
+}
+
+.sprite-ci-tips {
+    background-image: url(/images/sprite/sprite-ci-tips.png)
+}
+
+.desktop_sticky_app_img {
+    background-image: url(/images/sprite/desktop_sticky_app_img_v1.png)
+}
+
+.filter-section .bbicons-sprite-bank {
+    background-image: url(/images/sprite/banks-sprite-v21.png)
+}
+
+.filter-section .bbicons-sprite-bank-website {
+    background-image: url(/images/sprite/banks-sprite-v21.png)
+}
+
+.sprite-offer-rewards {
+    background-image: url(/images/offerflow/sprite-rewards-filter.png)
+}
+
+.bbicons-sprite-networks {
+    background-image: url(/images/sprite/sprite-networks-V1.png)
+}
+
+.bb-login .modal-body a span {
+    background-image: url(/images/sprite/login-sprite.png)
+}
+
+.sprite-offers,.offers-section .easy-access-sa span,.offers-section .easy-access-dc span {
+    background-image: url(/images/sprite/sprite-offers-v4.png)
+}
+
+.user-profile-pic-shadow {
+    background-image: url(/images/common/customer-review-shadow.png)
+}
+
+.ac_loading {
+    background-image: url(/images/smwheel.gif)
+}
+
+.complete-eligibility-form .work-exp-slide .work-exp-bg {
+    background-image: url(/images/sprite/work-exp-bg.png)
+}
+
+.complete-eligibility-form .jd-slide .jd-bg {
+    background-image: url(/images/sprite/joining-date-bg.png)
+}
+
+.complete-eligibility-form .home-loan-form-bg {
+    background-image: url(/images/sprite/home-loan-form-bg.png)
+}
+
+.news-tagger .slider-handle,.news-tagger-age-slider,.slider-handle,.news-tagger-slider,.annual-gross-income-slider,.news-tagger-slider.total-emi-slider-bg,.news-tagger-slider.average-monthly-incentives-slider {
+    background-image: url(/images/sprite/slider-bg-newstaggered-v1.png)
+}
+
+.news-tagger .company-slide {
+    background-image: url(/images/sprite/company-bg-v1.png)
+}
+
+.sprite-main-loan-page {
+    background-image: url(/images/sprite/sprite-main-loan-page.png)
+}
+
+.cc-monthly-incentives-slider .news-tagger-slider,.complete-eligibility-form .slider.slider-horizontal .slider-handle,.news-tagger .select-from-our-menu .slider.slider-horizontal .slider-handle,.complete-eligibility-form .joining-year .well,.complete-eligibility-form .joining-month .well,.complete-eligibility-form .emi-slider .well,.complete-eligibility-form .monthly-incentives-slider .well,.complete-eligibility-form .net-monthly-salary-slider .well,.complete-eligibility-form .year-profit-tax-slider .well,.complete-eligibility-form .annual-bonus-slider .well,.complete-eligibility-form .fixed-monthly-salary-slider .well,.complete-eligibility-form .work-exp-slider .well,.complete-eligibility-form .cost-of-property-slider .well {
+    background-image: url(/images/sprite/hl-slider-bg1.png)
+}
+
+.footer-sprite {
+    background-image: url(../footer-sprite.png)
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .cc-monthly-incentives-slider .news-tagger-slider {
+        background-image:url(/images/sprite/hl-slider-bg1.png)!important
+    }
+}
+
+@media screen and (min-width: 998px) and (max-width:1920px) {
+    .sticky-desktop-image {
+        background-image:url(/images/sprite/desktop_sticky_image.png)
+    }
+}
+
+@media screen and (max-width: 1920px) and (min-width:998px) {
+    .sticky-desktop-image {
+        background-image:url(/images/sprite/desktop_sticky_image.png)
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .news-tagger-slider,.news-tagger .slider-handle {
+        background-image:url(/images/landing/slider-tab-bg-v1.png)
+    }
+
+    .news-tagger .money-need-slider .slider.slider-horizontal .slider-handle,.complete-eligibility-form .slider.slider-horizontal .slider-handle,.complete-eligibility-form .fixed-monthly-salary-slider .well,.complete-eligibility-form .annual-bonus-slider .well,.complete-eligibility-form .monthly-incentives-slider .well,.complete-eligibility-form .emi-slider .well,.complete-eligibility-form .cost-of-property-slider .well {
+        background-image: url(/images/landing/hl-slider-bg-tab.png)
+    }
+
+    .news-tagger-slider.total-emi-slider-bg,.news-tagger-slider.average-monthly-incentives-slider {
+        background-image: url(/images/sprite/slider-bg-newstaggered-v1.png)
+    }
+
+    .cc-monthly-incentives-slider .news-tagger-slider,.complete-eligibility-form .slider.slider-horizontal .slider-handle,.news-tagger .select-from-our-menu .slider.slider-horizontal .slider-handle,.complete-eligibility-form .joining-year .well,.complete-eligibility-form .joining-month .well,.complete-eligibility-form .emi-slider .well,.complete-eligibility-form .monthly-incentives-slider .well,.complete-eligibility-form .net-monthly-salary-slider .well,.complete-eligibility-form .year-profit-tax-slider .well,.complete-eligibility-form .annual-bonus-slider .well,.complete-eligibility-form .fixed-monthly-salary-slider .well,.complete-eligibility-form .work-exp-slider .well,.complete-eligibility-form .cost-of-property-slider .well {
+        background-image: url(/images/landing/hl-slider-bg-tab.png)
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width:768px) {
+    .cc-monthly-incentives-slider .news-tagger-slider {
+        background-image:url(/images/sprite/hl-slider-bg1.png);
+        background-position: 14px -604px;
+        background-size: 94% auto!important
+    }
+}
+
+@media(min-width: 768px) {
+    .complete-eligibility-form .work-exp-slide .work-exp-bg {
+        background-image:url(/images/sprite/work-exp-bg.png)
+    }
+
+    .complete-eligibility-form .annual-bonus-slide.annual-bonus-bg {
+        background-image: url(/images/sprite/total-bonus-bg.png)
+    }
+
+    .complete-eligibility-form .monthly-incentives-slide.monthly-incentives-bg {
+        background-image: url(/images/sprite/monthly-incentives-bg.png)
+    }
+
+    .complete-eligibility-form .emi-slide .emi-bg {
+        background-image: url(/images/sprite/emi-bg.png)
+    }
+
+    .complete-eligibility-form .jd-slide .jd-bg {
+        background-image: url(/images/sprite/joining-date-bg.png)
+    }
+
+    .complete-eligibility-form .home-loan-form-bg {
+        background-image: url(/images/sprite/home-loan-form-bg.png)
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sticky-desktop-image-mob {
+        background-image:url(/images/sprite/desktop_sticky_image.png)
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sprite-ci-tips {
+        background-image:url(/images/sprite/sprite-ci-tips.png)
+    }
+
+    .news-tagger .company-slide {
+        background-image: none
+    }
+
+    .complete-eligibility-form .jd-slide .jd-bg,.complete-eligibility-form .home-loan-form-bg,.complete-eligibility-form .work-exp-slide .work-exp-bg-info {
+        background-image: none
+    }
+}
+
+.footer-social-icons .bbicons-ft-tt {
+    background-position: -84px -41px
+}
+
+.footer-social-icons .bbicons-ft-in {
+    background-position: -111px -41px
+}
+
+.footer-social-icons .bbicons-ft-fb {
+    background-position: -137px -41px
+}
+
+.footer-social-icons .bbicons-ft-gp {
+    background-position: -164px -41px
+}
+
+.footer-social-icons .bbicons-ft-instg {
+    background-position: -190px -41px
+}

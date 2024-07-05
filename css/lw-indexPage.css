@@ -1,0 +1,1201 @@
+.bb-banner {
+    position: relative;
+    margin: 0 auto;
+    background-image: url(/images/gateway/bb-gateway-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.welcome-greet {
+    color: #fff;
+    margin: 30px auto 0
+}
+
+.welcome-greet .main-title {
+    margin-bottom: 10px;
+    font-size: 36px
+}
+
+.sub-title {
+    padding: 0 10px;
+    font-size: 20px
+}
+
+.bb-product-search {
+    padding-top: 75px;
+    margin: 0 auto;
+    width: 520px
+}
+
+.bb-product-search .btn-group {
+    position: relative
+}
+
+.bb-product-search .select .btn {
+    background: #fff;
+    height: 50px;
+    border-radius: 0;
+    width: 215px;
+    color: #888;
+    vertical-align: top
+}
+
+.bb-product-search button:focus,.bb-product-search select:focus {
+    outline: 0
+}
+
+.bb-product-search .actionItem .btn {
+    border-right: 1px solid #ccc;
+    border-radius: 5px 0 0 5px
+}
+
+.bb-product-search .bb-search-btn {
+    width: 90px;
+    background-color: #ff5a5f;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    height: 50px
+}
+
+.bb-product-search .actionItem.open>.btn {
+    border-radius: 5px 0 0 0
+}
+
+.bb-product-search .select>.dropdown-menu {
+    background-color: #fff;
+    width: 100%
+}
+
+.bb-product-search .dropdown-menu {
+    position: absolute;
+    display: none
+}
+
+.bb-product-search .open>.dropdown-menu {
+    max-height: 210px!important;
+    display: block;
+    border-radius: 0 0 5px 5px;
+    z-index: 2
+}
+
+.bb-product-search .select .btn .caret {
+    content: "";
+    width: 15px;
+    height: 8px;
+    background-image: url(/images/gateway/select-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    position: absolute;
+    right: 15px;
+    top: 22px
+}
+
+.bb-product-search .select.open .btn .caret {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg)
+}
+
+.bb-product-search .select>.dropdown-menu li a {
+    font-size: 13px;
+    width: 100%;
+    color: #34495e;
+    padding: 10px 15px;
+    display: inline-block;
+    float: left
+}
+
+.bb-product-search .select>.dropdown-menu li.selected a {
+    background-color: #ccc;
+    color: #000
+}
+
+.bb-product-search .select>.dropdown-menu li a:hover {
+    background-color: #d9d8d8;
+    color: #34495e
+}
+
+.bb-product-search .dropdown-menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #f5f5f5
+}
+
+.bb-product-search .dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5
+}
+
+.bb-product-search .dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: #999
+}
+
+.bb-main-menu {
+    z-index: 1;
+    bottom: 0;
+    position: absolute;
+    width: 100%
+}
+
+.bb-trust-info .sprite-trust {
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 8px 0 8px 40px;
+    color: #fff;
+    display: inline-block;
+    background-image: url(/images/gateway/trust-sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 100px
+}
+
+.bb-trust-info .bbicons-simple-process {
+    background-position: -3px -1px
+}
+
+.bb-trust-info .bbicons-fast-approvals {
+    background-position: -3px -50px
+}
+
+.bb-trust-info .bbicons-happy-customers {
+    background-position: -3px -98px
+}
+
+.bb-trust-info .bbicons-exclusive-offer {
+    background-position: -3px -141px
+}
+
+.bb-products {
+    background-color: #fff;
+    margin: 20px 0 0
+}
+
+.bb-products li {
+    width: 9.09%;
+    border: solid #eee;
+    border-width: 0 3px 3px 0;
+    float: left;
+    padding: 10px 0;
+    max-height: 115px
+}
+
+.bb-products li:hover {
+    background: #eee
+}
+
+.bb-products a {
+    width: 100%;
+    color: #34495e;
+    display: inline-block;
+    background-image: url(/images/gateway/sprite-gateway-v6.png);
+    background-repeat: no-repeat;
+    background-position: 0 100px;
+    min-height: 115px;
+    padding: 68px 5px 15px
+}
+
+.bb-products .bbicons-hl {
+    background-position: center -17px
+}
+
+.bb-products .bbicons-cl {
+    background-position: center -112px
+}
+
+.bb-products .bbicons-pl {
+    background-position: center -208px
+}
+
+.bb-products .bbicons-cc {
+    background-position: center -296px
+}
+
+.bb-products .bbicons-dc {
+    background-position: center -387px
+}
+
+.bb-products .bbicons-acc {
+    background-position: center -485px
+}
+
+.bb-products .bbicons-lfi {
+    background-position: center -586px
+}
+
+.bb-products .bbicons-ci {
+    background-position: center -684px
+}
+
+.bb-products .bbicons-hi {
+    background-position: center -784px
+}
+
+.bb-products .bbicons-ucl {
+    background-position: center -883px
+}
+
+.bb-products .bbicons-fd {
+    background-position: center -982px
+}
+
+.bb-co-founders {
+    background-color: #116a9e;
+    color: #fff;
+    padding: 8px 0
+}
+
+.bb-patners {
+    display: inline-block;
+    margin: 9px auto 0
+}
+
+.bb-patners li {
+    float: left
+}
+
+.bb-patners li:first-child {
+    margin-top: 7px;
+    font-size: 12px
+}
+
+.bb-patners .sprite-bb-patners {
+    display: inline-block;
+    height: 28px;
+    background-image: url(/images/gateway/sprite-bb-patners-v2.png);
+    background-repeat: no-repeat;
+    background-position: 0 100px
+}
+
+.bb-patners .bbicons-amazon {
+    background-position: -8px -2px;
+    width: 60px
+}
+
+.bb-patners .bbicons-walden {
+    background-position: -94px -6px;
+    width: 73px
+}
+
+.bb-patners .bbicons-sequoia-capital {
+    background-position: -196px -2px;
+    width: 106px
+}
+
+.learn-more {
+    padding: 18px 0;
+    background-color: #3c3b3b
+}
+
+.learn-more li,.learn-more ul {
+    display: inline
+}
+
+.learn-more li,.learn-more a {
+    color: #888
+}
+
+.learn-more li,.learn-more a:hover {
+    color: #ddd
+}
+
+.bb-patners li,.learn-more li {
+    margin: 0 10px
+}
+
+.learn-more ul li:first-child {
+    color: #aaa9a9;
+    font-size: 12px
+}
+
+@media only screen and (min-width: 1340px) {
+    .bb-products a {
+        min-height:inherit
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .bb-products li:first-child,.bb-products li {
+        width:16.6%
+    }
+
+    .bb-products li:last-child {
+        border-width: 0 3px 3px 0
+    }
+
+    .bb-products li:nth-child(6),.bb-products li:nth-child(12) {
+        border-width: 0 0 3px 0
+    }
+
+    .ipad .bb-banner,.tablet .bb-banner {
+        background-position-x: -283px
+    }
+
+    .bb-products a {
+        min-height: inherit;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .bb-trust-info .sprite-trust {
+        font-size:14px;
+        margin: 0 5px
+    }
+
+    .bb-products a {
+        min-height: 115px
+    }
+}
+
+@media(width: 600px) {
+    .footer-list ul.footer-links {
+        display:inline-block;
+        width: 24%
+    }
+
+    .bb-trust-info .sprite-trust {
+        margin: 5px 5px;
+        width: 42%;
+        text-align: left
+    }
+}
+
+@media(width: 1024px) {
+    .bb-products li {
+        min-height:135px
+    }
+
+    .bb-products a {
+        padding: 65px 5px 0
+    }
+}
+
+.app-remind-wrap {
+    font-weight: lighter;
+    width: 470px;
+    color: #000;
+    background-color: white;
+    position: fixed;
+    z-index: 4445;
+    right: 0;
+    bottom: 0;
+    margin-right: -500px
+}
+
+.app_left_anim {
+    position: fixed;
+    right: 500px;
+    -webkit-transition-duration: 3s;
+    -moz-transition-duration: 3s;
+    -o-transition-duration: 3s;
+    transition-duration: 3s
+}
+
+.app-remind-details {
+    border: 3px solid #ccc;
+    border-radius: 3px
+}
+
+.app-remind-details .carousel-inner {
+    background: #fff;
+    max-height: 550px;
+    overflow: hidden
+}
+
+.app-remind-header {
+    background: #38acc9;
+    font-size: 17px;
+    color: #fff
+}
+
+.app-remind-header span.close-btn {
+    line-height: 20px;
+    padding: 2px 6px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #35636f;
+    height: 24px;
+    width: 22px
+}
+
+.app-remind-header span.close-btn a {
+    color: #fff
+}
+
+.app-remind-header .speaker-img {
+    padding: 2px 10px
+}
+
+.app-dont-remind-header {
+    background: #38acc9;
+    font-size: 17px;
+    color: #fff
+}
+
+.app-dont-remind-header span.ok-btn {
+    line-height: 20px;
+    padding: 2px 6px;
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    background: #35636f;
+    height: 24px;
+    width: 35px
+}
+
+.app-dont-remind-header span.ok-btn a {
+    color: #fff
+}
+
+.bank-app-details {
+    padding: 5px 11px 10px
+}
+
+.app-remind-wrap .bank-logo img {
+    vertical-align: sub;
+    max-width: 101px;
+    height: 20px
+}
+
+.bank-app-details p {
+    font-size: 14px;
+    color: #000
+}
+
+.app-remind-wrap .btn-action {
+    font-size: 14px;
+    color: #000;
+    position: relative
+}
+
+.btn-action-date {
+    float: left;
+    padding-top: 15px
+}
+
+.app-remind-wrap .btn-action-btns {
+    float: left
+}
+
+.app-remind-wrap .btn-action-btns .par-continue,.btn-action-btns .par-talk-us {
+    font-size: 16px;
+    color: #fff;
+    background: #ed4a13;
+    height: 36px;
+    padding: 7px 17px;
+    border-radius: 0;
+    font-weight: lighter;
+    margin-right: 3px
+}
+
+.par-continue a {
+    color: #fff
+}
+
+.bank-review-details {
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 13px;
+    padding: 5px 10px;
+    color: #000
+}
+
+.cust-review-details .review-rates {
+    padding: 0 15px
+}
+
+.cust-review-details .num-of-users a {
+    color: #16a085
+}
+
+.review-rates img {
+    height: 14px;
+    width: 14px;
+    padding-right: 1px
+}
+
+#show-Reviews {
+    cursor: pointer;
+    color: #16a085
+}
+
+.app-dont-remind-header {
+    padding-left: 3px
+}
+
+.bank-app-details b>img {
+    vertical-align: inherit;
+    width: 8px
+}
+
+.app-remind-wrap .modal-dialog {
+    width: 624px
+}
+
+.headerHide {
+    display: none
+}
+
+.app-cust-review {
+    padding-top: 10px
+}
+
+.bank-review-title {
+    padding: 6px 10px
+}
+
+.bank-review-title,.app-cust-review-title {
+    font-size: 17px;
+    width: 422px
+}
+
+.bank-review-title span {
+    float: right;
+    font-weight: normal;
+    padding-right: 100px
+}
+
+.bank-review-title span a {
+    color: #16a085;
+    font-size: 14px;
+    right: 10px;
+    position: absolute
+}
+
+.app-cust-review-title img {
+    vertical-align: text-bottom;
+    padding-right: 5px;
+    height: 20px;
+    padding-top: 2px;
+    display: inline-block;
+    margin-bottom: 1px
+}
+
+.app-cust-review-title>span {
+    background: #ed4a13;
+    border-radius: 14px;
+    float: right;
+    font-size: 14px;
+    padding: 1px 9px;
+    color: #fff;
+    margin-top: 3px
+}
+
+.app-cust-review p {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 5px;
+    margin: 0
+}
+
+.app-remind-header .checkbox {
+    display: inline
+}
+
+.rev-date-time {
+    font-size: 14px;
+    color: #38acc9;
+    font-weight: normal
+}
+
+.cust-details {
+    padding: 5px 0
+}
+
+.cust-img {
+    float: left;
+    width: 90px;
+    padding-top: 11px
+}
+
+.cust-img img {
+    border-radius: 50px;
+    width: 62px;
+    height: 62px
+}
+
+.cust-detail-reviews {
+    float: left;
+    padding: 10px 0
+}
+
+.cust-detail-reviews p {
+    clear: both;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0
+}
+
+.review-rate-circle span {
+    padding-right: 10px
+}
+
+.review-rate-circle img {
+    height: 15px
+}
+
+.review-rate-star span {
+    padding-right: 10px
+}
+
+.review-rate-star img {
+    padding-right: 2px;
+    height: 11px
+}
+
+.app-remind-wrap .show-on-mobile {
+    display: none
+}
+
+.app-remind-wrap .carousel-inner {
+    left: 0;
+    max-height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden
+}
+
+.app-remind-wrap .carousel-inner>.item {
+    min-height: 150px
+}
+
+.bank-review-details .rating {
+    float: none
+}
+
+.video-frame-offer {
+    width: 175px;
+    height: 100px
+}
+
+.app-remind-wrap .video-btn {
+    float: left;
+    line-height: 35px;
+    background-image: url(/images/common/video_text-bg.png);
+    color: #fff
+}
+
+.app-remind-wrap .video-btn span {
+    vertical-align: top
+}
+
+.app-remind-wrap .video-text {
+    padding: 10px 6px 9px
+}
+
+.bank-app-details .btn-primary {
+    border-radius: 0;
+    padding: 0;
+    background: 0
+}
+
+.app-remind-wrap .video-btn img {
+    vertical-align: inherit;
+    height: 35px;
+    width: 42px
+}
+
+.video-modal-offer {
+    z-index: 1000
+}
+
+.video-modal-offer .close {
+    position: absolute;
+    right: 5px;
+    z-index: 2000000
+}
+
+.customer-review-box {
+    padding: 4px 8px;
+    font-size: 12px;
+    z-index: 8;
+    background: #fff;
+    position: relative
+}
+
+.customer-review-box .small-rating img {
+    float: left;
+    height: 13px;
+    margin-right: 1px;
+    width: 13px
+}
+
+.bank-app-details .mob-talk-us {
+    font-size: 16px;
+    color: #fff;
+    background: #ed4a13;
+    border-radius: 0;
+    font-weight: lighter;
+    margin-right: 3px;
+    width: 80%;
+    padding: 4px 0;
+    line-height: 31px
+}
+
+.bank-app-details .mob-talk-us img {
+    vertical-align: inherit;
+    width: 29px;
+    height: 31px
+}
+
+.arrow-control {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-size: 16px;
+    display: table
+}
+
+.arrow-control .left {
+    border-right: 1px solid #c9c7c7
+}
+
+.arrow-control .left,.arrow-control .right {
+    padding: 2px 8px;
+    color: #827f80
+}
+
+.talkto_us {
+    width: 100%;
+    height: 45px;
+    display: none;
+    position: absolute;
+    bottom: 2px;
+    z-index: 1
+}
+
+.talkto_us .input-group-btn .btn-default {
+    background: #ed4a13;
+    border: 2px solid #ed4a13
+}
+
+.talkto_us .error {
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    top: 8px;
+    line-height: 25px;
+    position: relative;
+    background: #f1c40f;
+    border-radius: 6px;
+    padding: 5px 12px 5px 5px
+}
+
+.talkto_us .error img {
+    float: left;
+    padding-right: 5px
+}
+
+.talkto_us .error span {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold
+}
+
+.bank-app-details .error:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    top: -18px;
+    left: 11px;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136,183,213,0);
+    border-bottom-color: #f1c40f;
+    border-width: 10px
+}
+
+.bank-app-details .form-control {
+    height: 44px
+}
+
+.app-remind-details .talkto_us .input-group-btn .btn {
+    line-height: 20px
+}
+
+.talkto_us_success {
+    display: none;
+    background: #eefaf7;
+    border: 1px solid #39acc9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: -2px;
+    z-index: 2
+}
+
+.talkto_us_success p {
+    line-height: 18px;
+    font-weight: normal;
+    margin: 0
+}
+
+.app-remaind-wrap .btn-action-date {
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    padding: 5px 0
+}
+
+.arrow-control {
+    position: absolute;
+    right: 10px;
+    bottom: 7px;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-size: 16px
+}
+
+#pendingAppCarousel {
+    position: relative
+}
+
+@media only screen and (max-width : 767px) {
+    .app-remind-wrap {
+        font-weight:lighter;
+        width: 320px;
+        color: #000;
+        background-color: white;
+        position: fixed;
+        z-index: 4445;
+        right: 0;
+        bottom: 0
+    }
+
+    .app-remind-wrap .show-on-mobile {
+        display: block
+    }
+
+    .hide-on-mobile {
+        display: none
+    }
+
+    .bank-app-details .mob-talk-us {
+        font-size: 14px;
+        color: #fff;
+        background: #ed4a13;
+        border-radius: 0;
+        font-weight: lighter;
+        margin-right: 2px;
+        padding: 6px 10px;
+        float: left;
+        width: 102px;
+        height: 36px;
+        line-height: 24px;
+        margin-top: 9px
+    }
+
+    .app-remind-wrap .btn-action-btns .par-continue {
+        margin-top: 9px;
+        float: left
+    }
+
+    .app-remind-wrap .btn-action-date {
+        float: left;
+        padding-top: 0;
+        padding-bottom: 5px
+    }
+
+    .app-remind-wrap .bank-app-details {
+        padding: 5px 10px 11px;
+        font-weight: lighter
+    }
+
+    .app-remind-wrap .btn-action-date {
+        float: left;
+        padding-top: 0;
+        padding-bottom: 5px
+    }
+
+    .app-remind-wrap .bank-app-details {
+        padding: 5px 11px 18px;
+        font-weight: lighter
+    }
+
+    .bank-app-details .mob-talk-us img {
+        width: 20px;
+        height: 21px
+    }
+
+    .enter-number-mob {
+        padding-top: 8px;
+        width: 245px
+    }
+
+    .video-btn img {
+        width: 35px;
+        height: 35px
+    }
+
+    .arrow-control {
+        right: 2px;
+        top: 100px
+    }
+
+    .talkto_us {
+        width: 84%;
+        bottom: 2px
+    }
+
+    .app-remind-wrap .form-group {
+        position: fixed;
+        z-index: 1
+    }
+
+    .talkto_us .error {
+        top: -91px
+    }
+
+    .bank-app-details .error:after {
+        border-bottom: 0 none;
+        border-top: 10px solid #f1c40f;
+        top: 38px
+    }
+
+    .app-remind-wrap .modal-dialog {
+        max-width: 94%
+    }
+
+    .app_left_anim {
+        right: 500px
+    }
+}
+
+.app-remind-wrap .video-btn {
+    float: none;
+    margin-top: 10px
+}
+
+.app-remind-wrap .carousel {
+    position: relative
+}
+
+.app-remind-wrap .carousel-inner {
+    position: relative;
+    width: 100%
+}
+
+.app-remind-wrap .carousel-inner>.item {
+    display: none;
+    position: relative;
+    -webkit-transition: .6s ease-in-out left;
+    -o-transition: .6s ease-in-out left;
+    transition: .6s ease-in-out left
+}
+
+.app-remind-wrap .carousel-inner>.item>img,.app-remind-wrap .carousel-inner>.item>a>img {
+    line-height: 1
+}
+
+.app-remind-wrap .carousel-inner>.active,.app-remind-wrap .carousel-inner>.next,.app-remind-wrap .carousel-inner>.prev {
+    display: block
+}
+
+.app-remind-wrap .carousel-inner>.active {
+    left: 0
+}
+
+.app-remind-wrap .carousel-inner>.next,.app-remind-wrap .carousel-inner>.prev {
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.app-remind-wrap .carousel-inner>.next {
+    left: 100%
+}
+
+.app-remind-wrap .carousel-inner>.prev {
+    left: -100%
+}
+
+.app-remind-wrap .carousel-inner>.next.left,.app-remind-wrap .carousel-inner>.prev.right {
+    left: 0
+}
+
+.app-remind-wrap .carousel-inner>.active.left {
+    left: -100%
+}
+
+.app-remind-wrap .carousel-inner>.active.right {
+    left: 100%
+}
+
+.app-remind-wrap .carousel-control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    top: 30%;
+    width: 40px;
+    height: 40px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6)
+}
+
+.app-remind-wrap .carousel-control.left {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0.5) 0,rgba(0,0,0,0.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0.5) 0,rgba(0,0,0,0.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,0.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0.5) 0,rgba(0,0,0,0.0001) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000',endColorstr='#00000000',GradientType=1)
+}
+
+.app-remind-wrap .carousel-control.right {
+    left: auto;
+    right: 0;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0.0001) 0,rgba(0,0,0,0.5) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0.0001) 0,rgba(0,0,0,0.5) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0.0001)),to(rgba(0,0,0,0.5)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0.0001) 0,rgba(0,0,0,0.5) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#80000000',GradientType=1)
+}
+
+.app-remind-wrap .carousel-control:hover,.app-remind-wrap .carousel-control:focus {
+    outline: 0;
+    color: #fff;
+    text-decoration: none;
+    opacity: .9;
+    filter: alpha(opacity=90)
+}
+
+.app-remind-wrap .carousel-control .icon-prev,.app-remind-wrap .carousel-control .icon-next,.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block
+}
+
+.app-remind-wrap .carousel-control .icon-prev,.app-remind-wrap .carousel-control .glyphicon-chevron-left {
+    left: 50%;
+    margin-left: -10px
+}
+
+.app-remind-wrap .carousel-control .icon-next,.app-remind-wrap .carousel-control .glyphicon-chevron-right {
+    right: 50%;
+    margin-right: -10px
+}
+
+.app-remind-wrap .carousel-control .icon-prev,.app-remind-wrap .carousel-control .icon-next {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    line-height: 1;
+    font-family: serif
+}
+
+.app-remind-wrap .carousel-control .icon-prev:before {
+    content: '\2039'
+}
+
+.app-remind-wrap .carousel-control .icon-next:before {
+    content: '\203a'
+}
+
+.app-remind-wrap .carousel-control .fui-arrow-left,.carousel-control .fui-arrow-right {
+    color: #515151
+}
+
+.app-remind-wrap .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0;
+    list-style: none;
+    text-align: center
+}
+
+.app-remind-wrap .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0)
+}
+
+.app-remind-wrap .carousel-indicators .active {
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #fff
+}
+
+.app-remind-wrap .carousel-caption {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6)
+}
+
+.app-remind-wrap .carousel-caption .btn {
+    text-shadow: none
+}
+
+.app-remind-wrap .input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap
+}
+
+.app-remind-wrap .input-group-addon,.app-remind-wrap .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle
+}
+
+.app-remind-wrap .input-group-addon,.app-remind-wrap .input-group-btn,.app-remind-wrap .input-group .form-control {
+    display: table-cell
+}
+
+.app-remind-wrap .input-group {
+    display: table
+}
+
+.app-remind-wrap .input-group-btn button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -2px
+}
+
+.app-remind-wrap .form-group.focus .input-group-btn .btn,.app-remind-wrap .input-group.focus .input-group-btn .btn {
+    border-color: #1abc9c;
+    background-color: #fff;
+    color: #1abc9c
+}
+
+.app-remind-wrap.form-group.focus .input-group-btn .btn-default,.app-remind-wrap .input-group.focus .input-group-btn .btn-default {
+    color: #fff;
+    background-color: #1abc9c
+}
+
+.app-remind-wrap .mobileForCallbackBtnGrp input {
+    border-radius: 0;
+    border: 2px solid #bdc3c7
+}

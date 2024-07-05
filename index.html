@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Make My Money</title>	
+	<link rel="stylesheet" type="text/css" href="css/headfoot.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="https://use.fontawesome.com/535382715f.js"></script>
+</head>
+
+<body>	
+	<div class="slide home-page">
+    <div class="content">
+      <div class="input-container">
+        <select class="input-select input-select-first">
+          <option value="would_like">I would like to</option>
+          <option value="do_research">Do research on</option>
+          <option value="get_quote"> Get a quote for</option>
+          <option value="check_elig">Check my eligibility for</option>
+          <option value="create_app">Create an application</option>
+          <option value="talk_to_us">Talk to our help team</option>
+        </select>
+      </div>
+      <div class="input-container">
+        <select name="huge" class="input-select">
+          <option value="0">Select a Product</option>
+          <option value="home_loan">Home Loan</option>
+          <option value="car_loan">Car Loan</option>
+          <option value="used_car_loan">Used Car Loan</option>
+          <option value="personal_loan">Personal Loan</option>
+          <option value="credit_card">Credit Card</option>
+          <option value="debit_card">Debit Card</option>
+          <option value="saving_account">Savings Account</option>
+          <option value="fixed_deposit">Fixed Deposit</option>
+          <option value="car_insurance">Car Insurance</option>
+          <option value="life_insurance">Life Insurance</option>
+          <option value="health_insurance">Health Insurance</option>
+        </select>
+      </div>
+      <div class="input-container">
+        <button class="search-btn" >Search</button>
+      </div>
+    </div>
+  </div>
+	<div class="header clearfix">
+    <div class="pull-left">
+      <div class="logo-container">
+        <img class="logo-img" src="img/makemymoney-logo.png">
+        <br/>
+        <div class="signupBtn mobile-btn">
+            <button>LOGIN/SIGNUP</button>
+        </div>
+      </div>
+      <div class="top-nav">
+        <div id="loan-link" class="nav-link">
+          <a href="">LOANS <i class="fa fa-angle-down" aria-hidden="true"></i></a>        
+        </div>
+        <div id="cal-link" class="nav-link">
+          <a href="">CALCULATOR <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        </div>
+        <div class="nav-link">
+          <a href="">ABOUT US</a>
+        </div>
+        <div class="no-mobile nav-link">
+          <input class="search-inp" type="text" placeholder="Search"/>
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+        <div style="font-size:16px; margin-left:20px;" class="no-mobile nav-link">
+          1800 270 5455 | <a href="#"><b>Contact</b></a>        
+        </div>
+        <div class="nav-link signupBtn">
+            <button>LOGIN/SIGNUP</button>
+        </div>
+      </div>
+    </div>
+    <div class="pull-right-link menu-link">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="nav-link-submenu clearfix" id="loan-sub-menu">
+      <div class="nav-link-left">
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/homeicon.png"/>
+          <a href="">
+            Home Loans
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/prsnicon.png"/>
+          <a href="">
+            Personal Loan
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/caricon.png"/> 
+          <a href="">
+            Auto Loan
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/prop.png"/>
+          <a href="">
+            Loan Against Property
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/spclprp.png"/>
+          <a href="">
+            Loan Against Sp. Property
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/busicon.png"/>
+          <a href="">
+            Business Loan
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/nriicon.png"/> 
+          <a href="">
+            NRI Home Loan
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/corpicon.png"/>
+          <a href="">
+            Corporate Financing / SME
+          </a>
+        </div>
+      </div>
+      <div class="nav-link-right">
+        <div class="nav-link-category">
+          <img class="submenu-icon" src="img/homeicon.png"/>
+          <h3>Home Loan</h3>
+          <p>Click here for Home loan</p>
+        </div>
+        <div class="nav-link-category">
+          <img class="submenu-icon" src="img/prsnicon.png"/>
+          <h3>Personal Loan</h3>
+          <p>Click here for Personal loan</p>
+        </div>
+        <div class="nav-link-category">
+          <img class="submenu-icon" src="img/caricon.png"/>
+          <h3>Auto Loan</h3>
+          <p>Click here for Auto Loan</p>
+        </div>
+        <div class="nav-link-category">
+          <img class="submenu-icon" src="img/prop.png"/>
+          <h3>Loan Against Property</h3>
+          <p>Click here for Loan against Property</p>
+        </div>
+        <div class="nav-link-category">
+          <img class="submenu-icon" src="img/spclprp.png"/>
+          <h3>Loan Against Special Property</h3>
+          <p>Click here for Loan Against Special Property</p>
+        </div>
+        <div class="nav-link-category">
+          <img class="submenu-icon" src="img/busicon.png"/>
+          <h3>Business Loan</h3>
+          <p>Click here for Business Loan</p>
+        </div>
+        <div class="nav-link-category">
+          <img class="submenu-icon" src="img/nriicon.png"/>
+          <h3>NRI Home Loan</h3>
+          <p>Click here for NRI Home Loan</p>
+        </div>
+        <div class="nav-link-category">
+          <img class="submenu-icon" src="img/corpicon.png"/>
+          <h3>Corporate Financing / SMEs</h3>
+          <p>Click here for Corporate Financing / SMEs</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav-link-submenu clearfix" id="cal-sub-menu">
+    <div class="nav-link-title">
+      <i class="fa fa-credit-card"></i>
+      <a href="">
+        EMI Calculator
+      </a>
+    </div>
+    <div class="nav-link-title">
+      <i class="fa fa-refresh"></i>
+      <a href="">
+        Balance Transfer
+      </a>
+    </div> 
+  </div>
+	<div class="cat-links clearfix">
+    <div class="cat-link-container">
+      <div class="cat-link">
+        <div class="product-tab-container">
+          <div class="product-tab quick-link  active">Quick</div>
+          <div class="product-tab custom-link inactive">Custom</div>
+        </div>
+         <div class="product-tab-info quick">
+          <img src="img/quick.jpg"><br/>
+          Click for one quick Quote.  
+        </div>
+        <div class="product-tab-info custom" style="display:none;">
+          <img src="img/custom.jpg"><br/>
+          Click for one Custom Quote.  
+        </div>
+        <div class="product-footer clearfix">
+          <div class="product-left">
+            <img src="img/homeicon.png"/>
+          </div>
+          <div class="product-right">
+            Home Loan
+          </div>
+        </div>
+      </div>
+      <div class="cat-link">
+        <div class="product-tab-container">
+          <div class="product-tab quick-link  active">Quick</div>
+          <div class="product-tab custom-link inactive">Custom</div>
+        </div>
+         <div class="product-tab-info quick">
+          <img src="img/quick.jpg"><br/>
+          Click for one quick Quote.  
+        </div>
+        <div class="product-tab-info custom" style="display:none;">
+          <img src="img/custom.jpg"><br/>
+          Click for one Custom Quote.  
+        </div>
+        <div class="product-footer clearfix">
+          <div class="product-left">
+            <img src="img/prop.png"/>
+          </div>
+          <div class="product-right" style="padding-top:10px;">
+           Loan Against Property
+          </div>
+        </div>
+      </div>
+      <div class="cat-link">
+        <div class="product-tab-container">
+          <div class="product-tab quick-link active">Quick</div>
+          <div class="product-tab custom-link inactive">Custom</div>
+        </div>
+         <div class="product-tab-info quick">
+          <img src="img/quick.jpg"><br/>
+          Click for one quick Quote.  
+        </div>
+        <div class="product-tab-info custom" style="display:none;">
+          <img src="img/custom.jpg"><br/>
+          Click for one Custom Quote.  
+        </div>
+        <div class="product-footer clearfix">
+          <div class="product-left">
+            <img src="img/spclprp.png"/>
+          </div>
+          <div class="product-right" style="padding-top:10px;">
+           Loan Against Special Property
+          </div>
+        </div>
+      </div>
+      <div class="cat-link">
+        <div class="product-tab-container">
+          <div class="product-tab quick-link  active">Quick</div>
+          <div class="product-tab custom-link inactive">Custom</div>
+        </div>
+         <div class="product-tab-info quick">
+          <img src="img/quick.jpg"><br/>
+          Click for one quick Quote.  
+        </div>
+        <div class="product-tab-info custom" style="display:none;">
+          <img src="img/custom.jpg"><br/>
+          Click for one Custom Quote.  
+        </div>
+        <div class="product-footer clearfix">
+          <div class="product-left">
+            <img src="img/caricon.png"/>
+          </div>
+          <div class="product-right">
+           Auto Loan
+          </div>
+        </div>
+      </div>
+      <div class="cat-link">
+        <div class="product-tab-container">
+          <div class="product-tab quick-link  active">Quick</div>
+          <div class="product-tab custom-link inactive">Custom</div>
+        </div>
+         <div class="product-tab-info quick">
+          <img src="img/quick.jpg"><br/>
+          Click for one quick Quote.  
+        </div>
+        <div class="product-tab-info custom" style="display:none;">
+          <img src="img/custom.jpg"><br/>
+          Click for one Custom Quote.  
+        </div>
+        <div class="product-footer clearfix">
+          <div class="product-left">
+            <img src="img/busicon.png"/>
+          </div>
+          <div class="product-right">
+           Business Loans
+          </div>
+        </div>
+      </div>
+      <div class="cat-link">
+        <div class="product-tab-container">
+          <div class="product-tab quick-link  active">Quick</div>
+          <div class="product-tab custom-link inactive">Custom</div>
+        </div>
+        <div class="product-tab-info quick">
+          <img src="img/quick.jpg"><br/>
+          Click for one quick Quote.  
+        </div>
+        <div class="product-tab-info custom" style="display:none;">
+          <img src="img/custom.jpg"><br/>
+          Click for one Custom Quote.  
+        </div>
+        <div class="product-footer clearfix">
+          <div class="product-left">
+            <img src="img/nriicon.png"/>
+          </div>
+          <div class="product-right">
+            NRI Home Loans
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide testimonials">
+    <div class="content">
+      <h1>Our Customer Saying</h1>
+      <div class="content-text">
+        <br/>
+        <br/>
+        <div class="testim-container">
+          <div class="testim-item">
+            <img class="person-image" src="img/2016_01_04_12_00_17_1.png"/> 
+            <div class="person-name">Mr Vikrant Bahl</div> 
+            <div class="person-title">MD, Operational Risk, Bank of America</div> 
+            <hr class="testi-hr"/>
+            <div class="person-comment">
+              <q>
+                Thank you very much for the very detailed, diligent and thoughtful support that you've provided in helping the part prepayment of my loan.
+              </q>
+            </div> 
+          </div>
+          <div class="testim-item">
+            <img class="person-image" src="img/2016_01_04_12_01_50_2.jpg"/> 
+            <div class="person-name">Sachin Uttam</div> 
+            <div class="person-title">Director, Enabling Dimensions Pvt Ltd</div> 
+            <hr class="testi-hr"/>
+            <div class="person-comment">
+              <q>
+                Once they understand the clients needs,the wide variety of options that their highly talented staffs churn out, is simply marvelous.
+              </q>
+            </div> 
+          </div>
+          <div class="testim-item">
+            <img class="person-image" src="img/2016_01_04_12_02_48_3.jpg"/> 
+            <div class="person-name">Gaurav Bhagat</div> 
+            <div class="person-title">MD, Consortium Gifts Pvt Ltd</div> 
+            <hr class="testi-hr"/>
+            <div class="person-comment">
+              <q>
+                One of the finest mortgage brokers I have ever met.their commitments & professionalism made the whole transaction a real breeze.
+              </q>
+            </div> 
+          </div>  
+          <div class="testim-item">
+            <img class="person-image" src="img/2016_01_04_12_04_30_4.jpg"/> 
+            <div class="person-name">Puneet Dutta</div> 
+            <div class="person-title">MD, Multani Jewellers</div> 
+            <hr class="testi-hr"/>
+            <div class="person-comment">
+              <q>
+                For loan syndication & other financial needs,the interest rates that they offer are very competitive & probably the best in the industry.
+              </q>
+            </div> 
+          </div> 
+          <div class="testim-item">
+            <img class="person-image" src="img/2016_01_04_12_06_24_5.jpg"/> 
+            <div class="person-name">Sameer Kamboj</div> 
+            <div class="person-title">Partner, LMI</div> 
+            <hr class="testi-hr"/>
+            <div class="person-comment">
+              <q>
+                Only two words "Excellent services".
+              </q>
+            </div> 
+          </div>  
+          <div class="testim-item">
+            <img class="person-image" src="img/2016_01_05_05_33_19_6.jpg"/> 
+            <div class="person-name">Rajat Mittal</div> 
+            <div class="person-title">Owner-Prodigy Real Estate Consultants Pvt.Ltd</div> 
+            <hr class="testi-hr"/>
+            <div class="person-comment">
+              <q>
+                Most trust-worthy & innovative house of mortgage advisors.
+              </q>
+            </div> 
+          </div> 
+          <div class="testim-item">
+            <img class="person-image" src="img/2016_01_05_06_16_21_7.jpg"/> 
+            <div class="person-name">Piyush Sinhha</div> 
+            <div class="person-title">Corporate Head , NEC Technologies Ltd</div> 
+            <hr class="testi-hr"/>
+            <div class="person-comment">
+              <q>
+                100% Customer Oriented Approach.
+              </q>
+            </div> 
+          </div>  
+          <div class="testim-item">
+            <img class="person-image" src="img/2016_01_05_07_27_28_2.png"/> 
+            <div class="person-name">Piyush Prakash</div> 
+            <div class="person-title">Principal Architech, DAAT</div> 
+            <hr class="testi-hr"/>
+            <div class="person-comment">
+              <q>
+                I'm pleased with their professional approach towards the clients.
+              </q>
+            </div> 
+          </div> 
+          <div class="testim-item">
+            <img class="person-image" src="img/2016_01_05_07_27_04_3.jpg"/> 
+            <div class="person-name">Nilanjan Bhowal </div> 
+            <div class="person-title">Principal Architech, Design Consortium</div> 
+            <hr class="testi-hr"/>
+            <div class="person-comment">
+              <q>
+                These guys are really professionals and understanding the exact requirement and providing awesome after sale services.
+              </q>
+            </div> 
+          </div>  
+        <br/>
+       </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide partner-link">
+    <div class="content">
+      <h1>Our Partners</h1>
+      <div class="content-text">
+        <hr class="partner-hr"/>
+        <br/>
+        <br/>
+        <div class="news-container">
+          <div class="news-item">
+            <ul>
+              <li class="image-link"><img src="img/2016_01_02_08_17_04_axis.png"></li>
+              <li class="image-link"><img src="img/2016_01_02_08_17_15_icici.png"></li>
+              <li class="image-link"><img src="img/2016_01_02_08_17_23_hdfc.png"></li>
+              <li class="image-link"><img src="img/2016_01_02_08_17_44_dcb.png"></li>
+            </ul>
+          </div>
+          <div class="news-item">
+            <ul>
+              <li class="image-link"><img src="img/2016_01_06_10_55_49_dutsch.png"></li>
+              <li class="image-link"><img src="img/2016_01_06_10_59_55_feedral.png"></li>
+              <li class="image-link"><img src="img/2016_01_06_11_05_42_idbi.png"></li>
+              <li class="image-link"><img src="img/2016_01_06_11_05_54_inds.png"></li>
+            </ul>
+          </div>
+          <div class="news-item">
+            <ul>
+              <li class="image-link"><img src="img/2016_01_06_11_07_08_sbi.png"></li>
+              <li class="image-link"><img src="img/2016_01_06_11_10_58_kotak.png"></li>
+              <li class="image-link"><img src="img/2016_01_06_11_11_11_ratnakar.png"></li>
+              <li class="image-link"><img src="img/2016_01_06_11_11_24_scb.png"></li>
+            </ul>
+          </div> 
+          <div class="news-item">
+            <ul>
+              <li class="image-link"><img src="img/2016_01_06_11_14_03_yes.png"></li>
+              <li class="image-link"><img src="img/2016_01_06_11_20_56_aditya.png"></li>
+              <li class="image-link"><img src="img/2016_01_06_11_21_09_indbull.png"></li>
+              <li class="image-link"><img src="img/2016_01_06_11_23_55_dhfl.png"></li>
+            </ul>
+          </div>
+          <div class="news-item">
+            <ul>
+              <li class="image-link"><img src="img/2016_01_13_11_54_41_lt.png"></li>
+              <li class="image-link"><img src="img/2016_01_13_11_54_52_tata.png"></li>
+              <li class="image-link"><img src="img/2016_01_13_11_55_03_iifl.png"></li>
+              <li class="image-link"><img src="img/2016_01_13_11_55_13_karvy.png"></li>
+            </ul>
+          </div>
+          <div class="news-item">
+            <ul>
+              <li class="image-link"><img src="img/2016_01_13_11_55_25_fllurton.png"></li>
+              <li class="image-link"><img src="img/2016_01_13_11_55_37_rim.png"></li>
+              <li class="image-link"><img src="img/2016_01_13_11_55_50_rel.png"></li>
+              <li class="image-link"><img src="img/2016_01_15_08_38_41_pnb.png"></li>
+            </ul>
+          </div> 
+          <div class="news-item">
+            <ul>
+              <li class="image-link"><img src="img/2016_01_15_10_23_24_hdb.png"></li>
+              <li class="image-link"><img src="img/2016_01_15_10_39_23_edel.png"></li>
+              <li class="image-link"><img src="img/2016_01_15_10_39_35_capital.png"></li>
+              <li class="image-link"><img src="img/2016_01_15_10_39_50_shriram.png"></li>
+            </ul>
+          </div>
+          <div class="news-item">
+            <ul>
+              <li class="image-link"><img src="img/2016_01_15_10_40_01_magma.png"></li>
+              <li class="image-link"><img src="img/2016_01_15_10_40_30_chola.png"></li>
+              <li class="image-link"><img src="img/2016_01_15_10_40_40_hero.png"></li>
+              <li class="image-link"><img src="img/2016_01_15_12_05_38_hdfcltd.png"></li>
+            </ul>
+          </div> 
+        </div>
+        <br/>
+       </div>
+      </div>
+    </div>
+  </div>
+  <div class="learn-more">
+    <ul>
+    <li>LEARN MORE :</li>
+    <li> <a target="_blank" title="Loans blog">
+    Loans</a></li>
+    <li> <a target="_blank" title="Credit Cards blog">
+    Credit Cards</a></li>
+    <li> <a target="_blank" title="Investments blog">
+    Investments</a></li>
+    <li> <a target="_blank" title="Money Management blog">
+    Money Management</a></li>
+    </ul>
+  </div>
+  <footer id="common-footer" class="new-footer">
+      <div class="footer-container">
+      <section class="footer-block-one footer-list clearfix">
+        <ul class="col-sm-2 footer-links text-left">
+          <li class="ft-links-tittle">What We Do</li>
+          <li><a target="_blank" href="http://www.makemymoney.com/loan-details.php?page_id=NQ==">Home Loans</a>
+          </li>
+          <li><a target="_blank" href="http://www.makemymoney.com/loan-details.php?page_id=Ng==">Personal Loan</a>
+          </li>
+          <li><a target="_blank" href="http://www.makemymoney.com/loan-details.php?page_id=Nw==">Home Loan for NRIs</a>
+          </li>
+          <li><a target="_blank" href="http://www.makemymoney.com/loan-details.php?page_id=OQ==">Loan Against Property</a>
+          </li>
+          <li><a target="_blank" href="http://www.makemymoney.com/loan-details.php?page_id=MTA=">Business Loans</a>
+          </li>
+          <li><a target="_blank" href="http://www.makemymoney.com/loan-details.php?page_id=MTE=">Take Over Loans/Topups</a>
+          </li>
+          <li><a target="_blank" href="http://www.makemymoney.com/loan-details.php?page_id=MTQ=">Auto Loans</a>
+          </li>
+          <li><a target="_blank" href="http://www.makemymoney.com/loan-details.php?page_id=MTU=">Corporate Loan</a>
+          </li>
+        </ul>
+        <ul class="col-sm-2 footer-links text-left">
+          <li class="ft-links-tittle">About Us</li>
+          <li>
+            <a target="_blank" href="http://www.makemymoney.com/our-customers-saying.php">Our Customer Saying</a>
+          </a>
+          </li>
+          <li>
+           <a target="_blank" href="http://www.makemymoney.com/our-team.php">Our Team</a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.makemymoney.com/career.php">Career</a>
+          </a>
+          </li>
+          <li>
+           <a target="_blank" href="http://www.makemymoney.com/cibil.php?page_id=TlRZNA==">CIBIL</a>
+          </li>
+          <li>
+           <a target="_blank" href="http://www.makemymoney.com/contact.php">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="col-sm-2 footer-links text-left">
+          <li class="ft-links-tittle">Other Links</li>
+          <li>
+           <a target="_blank" href="http://www.makemymoney.com/marginal-cost-of-funds-based-lending-rate.php">MCLR</a>
+          </li>
+          <li>
+           <a target="_blank" href="http://www.makemymoney.com/page.php?page_id=MjM=">Terms & Conditions</a>
+          </li>
+          <li>
+           <a target="_blank" href="http://www.makemymoney.com/page.php?page_id=MjQ=">Privacy Policy</a>
+          </li>
+          <li>
+           <a target="_blank" href="http://www.makemymoney.com/page.php?page_id=MjU=">DISCLAIMER</a>
+          </li>
+          <li>
+           <a target="_blank" class="signupBtn" style="margin:0;">Login / Signup</a>
+          </li>
+        </ul>
+        <ul class="col-sm-2 footer-links text-left">
+          <li class="ft-links-tittle">Subscribe to our newsletter</li>
+          <article class="fotBtmPan subsClass">
+            <ul class="fotMenu" style="white-space: nowrap; color: #FFFFFF;">
+              <li>
+                <form action="http://www.makemymoney.com/subscribe.php" method="post">
+                <input class="footer-input-text" type="text" name="subscribemail" placeholder="Leave your email here" style="float:left;" class="subsIn" required="">
+                <input type="submit" name="submitsubscribe" value="Subscribe" class="subsBtn">
+                </form>
+              </li>
+            </ul>
+          </article>
+        </ul>
+      </section>
+      <section class="footer-block-three clearfix">
+        <div class="footer-mobileapps pull-left">
+        <h4 class="title">Mobile Apps</h4>
+        <div class="get-your-app">
+        <a href="http://m.onelink.me/378f2d2d" title="Google play" target="_blank" data-actionloc=":footer" data-action="click:googlePlayDownload"><span class="footer-sprite bbicons-android"></span></a><a href="https://itunes.apple.com/in/app/bankbazaar-loans-credit-cards/id972595507?mt=8&amp;ign-mpt=uo%3D4" title="Apple Store" target="https://itunes.apple.com/in/app/bankbazaar-loans-credit-cards/id972595507?mt=8&amp;ign-mpt=uo%3D4" data-actionloc=":footer" data-action="click:appleStoreDownload"><span class="footer-sprite bbicons-ios"></span></a></div>
+        </div>
+        <div class="footer-getintouch pull-left">
+        <p class="title">Contact Us</p>
+        <a href="tel:+91 44 66511800" title="Call Us"><span class="footer-sprite bbicons-mobile"></span>
+        1800-270-5455</a><a href="mailto:support@bankbazaar.com" title="Email Us"><span class="footer-sprite bbicons-email"></span>
+        support@makemymoney.com</a></div>
+        <div class="footer-social-icons pull-left">
+        <h4 class="title">Follow Us</h4>
+        <a target="_blank" href="http://twitter.com/bankbazaar" title="Bankbazaar Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a target="_blank" href="http://in.linkedin.com/company/bank_bazaar" title="Bankbazaar Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a target="_blank" href="http://facebook.com/bankbazaar" title="Bankbazaar Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://plus.google.com/+BankBazaar" title="Bankbazaar GooglePlus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://instagram.com/bankbazaar/" title="Bankbazaar Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </section>
+    </div>
+  </footer>
+  <div class="loginWrap">
+    <div class="loginArea" style="margin-top: 8%;"> <i class="closeReg fa fa-times"></i>
+      <div class="loginHeading">Login to MakeMyMoney</div>
+      <div class="loginSlogan">( Join makemymoney to save your money &amp; valueable time )</div>
+      <div class="loginSelect"><span class="loginNew">New User</span><span class="loginExist">Existing User</span></div>
+      <div class="loginFormArea">
+        <form method="post" action="account.php" name="loginForm" id="loginForm">
+          <span id="loginError" style="display:block; margin:-20px 0px 5px 0px;"></span>
+          <input type="email" placeholder="Email" name="user_name" id="user_name" class="inputLogin">
+          <input type="password" placeholder="Password" name="password" id="password" class="inputLogin">
+          <a href="forgot-reset-password.php?action=Zm9yZ290" class="forgotArea">Forgot Password?</a>
+          <input type="submit" value="Log in" id="login" name="login-submit" class="loginSubmit">
+        </form>
+      </div>
+      <div class="regFormArea" style="display: none;">
+        <form method="post" name="chkForm" id="chkForm" action="loginReg.php">
+          <span id="emailInfo" style="display:block; margin:-20px 0px 5px 0px;"></span>
+          <input type="name" placeholder="First Name" name="name" id="name" class="inputLogin" required="">
+          <input type="email" placeholder="Email" name="email" id="email" class="inputLogin" required="">
+          <input type="password" placeholder="Password" name="password" id="password" class="inputLogin" required="">
+          <input type="submit" value="Create an account" name="regsubmit" class="loginSubmit">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-overlay">
+  </div>
+  <div class="sidebar">
+    <div class="nav-link-title">
+          <img class="submenu-icon" src="img/homeicon.png"/>
+          <a href="">
+            Home Loans
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/prsnicon.png"/>
+          <a href="">
+            Personal Loan
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/caricon.png"/> 
+          <a href="">
+            Auto Loan
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/prop.png"/>
+          <a href="">
+            Loan Against Property
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/spclprp.png"/>
+          <a href="">
+            Loan Against Sp. Property
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/busicon.png"/>
+          <a href="">
+            Business Loan
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/nriicon.png"/> 
+          <a href="">
+            NRI Home Loan
+          </a>
+        </div>
+        <div class="nav-link-title">
+          <img class="submenu-icon" src="img/corpicon.png"/>
+          <a href="">
+            Corporate Financing / SME
+          </a>
+        </div>
+  </div>
+  <div class="social-icons">
+    <div class="social-tab"><span class="social-text">Twitter</span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-twitter" aria-hidden="true"></i></div>
+    <div class="social-tab"><span class="social-text">LinkedIn</span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-linkedin" aria-hidden="true"></i></div>
+    <div class="social-tab"><span class="social-text">Facebook</span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-facebook" aria-hidden="true"></i></div>
+    <div class="social-tab"><span class="social-text">G+</span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-google-plus" aria-hidden="true"></i></div>
+    <div class="social-tab"><span class="social-text">Instagram</span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-instagram" aria-hidden="true"></i></div>
+  </div>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+
+</body>
+
+</html>
